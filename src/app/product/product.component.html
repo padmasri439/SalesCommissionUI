@@ -1,0 +1,26 @@
+<div class="card">
+  <div class="card-header">
+    <div >Product Details</div>
+  </div>
+  <div class="card-body">
+    <table class="table">
+      <thead>
+      <tr>
+        <th style="text-align: center">Area</th>
+        <th style="text-align: center">Quantity Sold</th>
+        <th style="text-align: center">Total Sales</th>
+        <th></th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr >
+        <td>{{salesmanArea}}</td>
+        <td style="text-align: center">{{quantity}}</td>
+        <td style="text-align: center">{{salesAmount}}</td>
+      </tr>
+      </tbody>
+    </table>
+    <button class="m-2" mat-stroked-button  (click)="close()">Close
+    </button>
+  </div>
+</div>

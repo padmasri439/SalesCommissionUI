@@ -1,0 +1,20 @@
+.resultBox {
+  height: 600px;
+  overflow-y: auto;
+}
+
+.error-text {
+  color: red;
+  font-size: 14px;
+  font-weight: 500;
+}
+.upload-button {
+  cursor: pointer;
+  border: 0;
+  border-radius: 4px;
+  font-weight: 600;
+  margin: 0 10px;
+  width: 80px;
+  padding: 10px 0;
+  transition: 0.4s;
+}
